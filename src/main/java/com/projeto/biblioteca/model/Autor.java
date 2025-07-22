@@ -13,13 +13,13 @@ public class Autor {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public Long id;
+	private Long id;
 	
 	@Column(name="nome_completo")
-	public String nomeCompleto;
+	private String nomeCompleto;
 	
 	@Column(name="nacionalidade")
-	public String nacionalidade;
+	private String nacionalidade;
 
 	public Long getId() {
 		return id;
